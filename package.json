@@ -1,6 +1,6 @@
 {
-  "name": "html-webpack-template",
-  "version": "1.0.0",
+  "name": "html-webpack-template-with-ts",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "dev": "webpack --mode development",
@@ -9,9 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.rusrobots.ru/aic.develop/htm-webpack-template.git"
+    "url": "https://github.com/mmxzmax/packer.git"
   },
-  "author": "MrTheFirst, emelyanov@aicrobotics.ru",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.4.3",
