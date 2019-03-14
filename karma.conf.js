@@ -23,7 +23,7 @@ module.exports = function(config) {
       "**/*.ts": ["karma-typescript"]
     },
 
-    reporters: ["progress", "karma-typescript"],
+    reporters: ["progress", "karma-typescript","kjhtml"],
 
 
     port: 9876,
