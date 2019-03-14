@@ -5,6 +5,9 @@ class Header {
   constructor() {
     console.log(this.text.data , this.text.text);
   }
+  show() {
+    return this.text.text;
+  }
 }
 
 export default Header;
