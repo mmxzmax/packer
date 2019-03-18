@@ -1,8 +1,22 @@
-// import html from "./index.pug"
 import style from "./assets/styles/main.scss";
 
-// Icons
-// import './assets/icons/iconName.svg';
+
+//*****************************************************************
+
+
+//               remove comment to support pwa
+
+
+// import runtime from 'serviceworker-webpack-plugin/lib/runtime';
+//
+// if ('serviceWorker' in navigator) {
+//     const registration = runtime.register();
+// }
+
+
+
+//*****************************************************************
+
 
 require('./app');
 
