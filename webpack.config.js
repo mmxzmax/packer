@@ -49,7 +49,8 @@ module.exports = {
     host: 'localhost',
     port: '9900',
     disableHostCheck: true,
-    open: false
+    open: false,
+    watchContentBase: true
   },
   module: {
     rules: [
