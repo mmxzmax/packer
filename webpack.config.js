@@ -14,7 +14,6 @@ let plugins = [];
 let page;
 fs.readdirSync('./src/').forEach(file => {
   if(String(file).endsWith('.pug')){
-    console.log('page ',path.basename(file, '.pug'));
     page = new HtmlWebPackPlugin({
       template: `./src/${path.basename(file, '.pug')}.pug`,
       filename: `./${path.basename(file, '.pug')}.html`,
